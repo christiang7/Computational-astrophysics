@@ -1,0 +1,2 @@
+      PROGRAM U8_A1
+      END PROGRAM U8_A1

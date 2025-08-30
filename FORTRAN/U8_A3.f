@@ -1,0 +1,12 @@
+	PROGRAM U8_A2
+	REAL ZAHL, ZAHL2, n
+	REAL X
+	ZAHL2 = 2.4
+	ZAHL = 0.75E-3
+	OPEN (10, FILE="xydaten.txt", ERR=3)
+	READ (10,'(F10.2,F10.2)') n , X
+	STOP
+1	FORMAT (A,E10.2E2)
+2	FORMAT (F3.1)
+3	WRITE(*,*) "nicht gut"
+	END PROGRAM U8_A2
